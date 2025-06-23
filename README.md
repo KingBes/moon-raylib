@@ -10,3 +10,7 @@
         }
     }
 ```
+
+```
+moon run --target native .\src\main
+```
