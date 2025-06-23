@@ -4,7 +4,12 @@
   "readme": "README.md",
   "repository": "",
   "license": "MIT",
-  "keywords": [],
-  "description": "",
+  "keywords": [
+    "moon",
+    "raylib",
+    "游戏库",
+    "跨平台"
+  ],
+  "description": "raylib 跨平台游戏库",
   "source": "src"
 }
