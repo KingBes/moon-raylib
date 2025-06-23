@@ -1,0 +1,12 @@
+{
+    "is-main": true,
+    "import": [
+        "KingBes/raylib/lib"
+    ],
+    "link": {
+        "native": {
+            "cc-link-flags": "-IC:/project/moon/raylib/raylib/include -LC:/project/moon/raylib/raylib/lib",
+            "cc-flags": "-lraylib -lopengl32 -lgdi32 -lwinmm"
+        }
+    }
+}

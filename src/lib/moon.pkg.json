@@ -1,0 +1,13 @@
+{
+    "supported-targets": [
+        "native"
+    ],
+    "targets": {
+        "core.mbt": [
+            "native"
+        ],
+        "bind.mbt": [
+            "native"
+        ]
+    }
+}
