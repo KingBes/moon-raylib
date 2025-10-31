@@ -1,7 +1,24 @@
 {
+    "native-stub": [
+        "../tool.c",
+        "../raylib/rcore.c",
+        "../raylib/rshapes.c",
+        "../raylib/rtextures.c",
+        "../raylib/rtext.c",
+        "../raylib/utils.c",
+        "../raylib/rglfw.c",
+        "../raylib/rmodels.c",
+        "../raylib/raudio.c"
+    ],
     "supported-targets": [
         "native"
     ],
+    "link": {
+        "native": {
+            "cc-flags": "-D_GNU_SOURCE -DPLATFORM_DESKTOP_GLFW -DGRAPHICS_API_OPENGL_33 -Wno-missing-braces -Werror=pointer-arith -fno-strict-aliasing -std=c99 -O1 -Werror=implicit-function-declaration -fPIC -DBUILD_LIBTYPE_SHARED",
+            "cc-link-flags": "-I../raylib -I../raylib/external/glfw/include"
+        }
+    },
     "targets": {
         "core.mbt": [
             "native"

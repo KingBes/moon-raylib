@@ -1,6 +1,9 @@
 {
   "name": "KingBes/raylib",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "deps": {
+    "moonbitlang/x": "0.4.29"
+  },
   "readme": "README.md",
   "repository": "",
   "license": "MIT",
